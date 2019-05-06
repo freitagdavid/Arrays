@@ -168,6 +168,11 @@ int main(void) {
   printf("%s \n", arr_read(arr, 0));
   printf("%s \n", arr_read(arr, 1));
   printf("%d \n", arr->count);
+  arr_append(arr, "VALUE-2");
+  printf("%s \n", arr_read(arr, 1));
+  printf("%d \n", arr->count);
+
+  destroy_array(arr);
 
   return 0;
 }
