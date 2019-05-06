@@ -6,3 +6,5 @@ build
 *.log
 
 */arrays
+.vscode
+arrays/a.out
